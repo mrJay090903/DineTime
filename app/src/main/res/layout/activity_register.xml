@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screen"
+    android:gravity="start"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+    <!-- Logo Image View -->
+
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="200dp"
+        android:layout_height="186dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/restologo" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Dinetime"
+        android:textColor="@color/orange"
+        android:textSize="60dp"
+        android:textAllCaps="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+
+        android:text="Reservation"
+        android:textColor="@color/orange"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:textAllCaps="true"
+        android:textSize="30dp"
+        android:text="Register Here"
+        android:textColor="@color/orange"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/fullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Fullname"
+        android:inputType="text"
+        android:maxLines="1"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Address"
+        android:inputType="text"
+        android:maxLines="1"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp" />
+    <EditText
+        android:id="@+id/conpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:paddingStart="20dp"
+        android:paddingEnd="0dp" />
+
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/regBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="20dp"
+        android:background="@color/blueBackground"
+        android:textColor="@android:color/white"
+        android:text="Register"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account?"/>
+        <TextView
+            android:id="@+id/loginNowBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login Now"
+            android:textStyle="bold"
+            android:textColor="@color/orange"/>
+    </LinearLayout>
+</LinearLayout>

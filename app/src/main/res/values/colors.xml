@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blueBackground">#3F51B5</color>
+    <color name="darkerBlueBackground">#303F9F</color> <!-- Adjust to a darker shade of blue -->
+    <color name="orange">#FFC107</color>
+    <color name="gray">#FFC107</color>
+    <color name="bottom_nav_item_color">#C52D2D</color>
+    <color name="bottom_navigation_menu">#AF2727</color>
+</resources>

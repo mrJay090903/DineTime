@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "722664745768",
+    "project_id": "dinetimedb",
+    "storage_bucket": "dinetimedb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722664745768:android:db0476163f46568b273e1d",
+        "android_client_info": {
+          "package_name": "com.example.dinetime"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQK00htdQLwrrETzemdFUfv8i82JfbM-c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
